@@ -14,10 +14,11 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     background-color: var(--body-bg-color);
     padding-top: 40px;
+    overflow-x: hidden;
 }
 
 .layout {
-    width: 100%;
+    width: 98%;
     max-width: 1166px;
     margin: 0 auto;
     padding: 0 20px;
