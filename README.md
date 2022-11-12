@@ -1,6 +1,6 @@
-<!-- <h1 align="center">
-  <img alt="dev.finances" title="dev.finances" src=".github/logo.svg" width="220px" />
-</h1> -->
+<h1 align="center">
+  <img alt="Discover" title="Discover" src="./assets/utils/gihub/logoDiscover.svg" width="220px" />
+</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -9,12 +9,7 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;
 </p>
 
-
 <br>
-
-<!-- <p align="center">
-  <img alt="dev.finances" src=".github/devfinances.png" width="100%">
-</p> -->
 
 ## 🚀 Tecnologias
 
@@ -39,6 +34,10 @@ Neste desafio você vai construir o seu próprio portfolio.
 - Consumir a API do Git Hub
 
 ## 🎨 Layout
+<br>
+<p align="center">
+  <img alt="dev.finances" src="./assets/utils/gihub/layout-projeto.png" width="100%">
+</p>
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
