@@ -8,19 +8,19 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Merriweather Sans', sans-serif;
     background-color: var(--body-bg-color);
     padding-top: 40px;
-    /* overflow-x: hidden; */
 }
 
 .layout {
     max-width: 1166px;
     margin: 0 auto;
-    padding: 0 12px;
+    padding: 0 20px;
 }
 
 .cards {
@@ -76,33 +76,14 @@ body {
     }
 
     .sidebar__profile{
-        flex: 1 1 100%;
+        flex: 0 0 100%;
     }
 
     .sidebar__information,
     .sidebar__technologies,
     .sidebar__experiences,
     .sidebar__education{
-        flex: 0 1 40%;
-    }
-
-    .sidebar__information,
-    .sidebar__experiences{
-        margin-right: 20px;
-    }
-}
-
-@media screen and (max-width:768px){
-    .sidebar__information,
-    .sidebar__technologies,
-    .sidebar__experiences,
-    .sidebar__education{
-        flex: 0 1 41%;
-    }
-
-    .sidebar__information,
-    .sidebar__experiences{
-        margin-right: 10px;
+        flex: 0 1 48%;
     }
 }
 
@@ -111,15 +92,9 @@ body {
     .sidebar__technologies,
     .sidebar__experiences,
     .sidebar__education{
-        flex: 0 1 100%;
-    }
-
-    .sidebar__information,
-    .sidebar__experiences{
-        margin-right: 0px;
+        flex: 0 0 100%;
     }
 }
-
 
 .sidebar__profile {
     display: flex;
@@ -313,34 +288,12 @@ body {
 }
 
 .project__item{
-    flex: 0 0 39%;
-}
-
-@media screen and (max-width: 1024px){
-    .project__item{
-        flex: 0 0 40%;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .project__item{
-        flex: 0 0 41%;
-    }
+    flex: 0 0 48%;
 }
 
 @media screen and (max-width: 600px){
     .project__item{
-        flex: 0 1 100%;
-    }
-}
-
-.project__item:nth-child(odd){
-    margin-right: 8px;
-}
-
-@media screen and (max-width: 600px){
-    .project__item:nth-child(odd){
-        margin-right: 0px;
+        flex: 0 0 100%;
     }
 }
 
@@ -460,13 +413,11 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
 }
 
 .tags__item:not(:last-child){
     margin-right: 10px;
 }
-
 
 .footer {
     padding: 24px 0;
