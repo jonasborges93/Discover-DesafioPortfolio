@@ -182,14 +182,14 @@ body {
 }
 
 .technologies__item {
-    flex: 1 23%;
-    margin: 0px 7.5px 13px;
+    flex: 0 0 25%;
+    margin: 0px 8px 13px;
     text-align: center;
     padding: 6px 4px;
     border-radius: 16px;
     background-color: var(--bg-techs);
 
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 700;
     text-transform: uppercase;
 
